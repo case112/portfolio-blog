@@ -22,7 +22,7 @@ OTP_TOTP_ISSUER = config('OTP_TOTP_ISSUER')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', cast=bool)
 
-ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
+ALLOWED_HOSTS=["178.62.21.133", "nikopensius.ee", "*.nikopensius.ee"]
 
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
