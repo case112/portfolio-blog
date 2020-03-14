@@ -85,3 +85,7 @@ max-width: 100%;
 #clickableAwesomeFont {
      cursor: pointer
 }
+
+div.post-img img {
+	width:100%;
+}
