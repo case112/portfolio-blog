@@ -89,3 +89,9 @@ max-width: 100%;
 div.post-img img {
 	width:100%;
 }
+
+.centerAboutImg {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  }
